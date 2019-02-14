@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2083EC822215044800AD09A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2083EC812215044800AD09A3 /* AppDelegate.m */; };
+		2083EC852215044800AD09A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2083EC842215044800AD09A3 /* ViewController.m */; };
+		2083EC882215044800AD09A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2083EC862215044800AD09A3 /* Main.storyboard */; };
+		2083EC8A2215044900AD09A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2083EC892215044900AD09A3 /* Assets.xcassets */; };
+		2083EC8D2215044900AD09A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2083EC8B2215044900AD09A3 /* LaunchScreen.storyboard */; };
+		2083EC902215044900AD09A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2083EC8F2215044900AD09A3 /* main.m */; };
+		2083ECA12215046400AD09A3 /* SJGesturePasswordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2083EC972215046400AD09A3 /* SJGesturePasswordCell.m */; };
+		2083ECA22215046400AD09A3 /* SJGestureInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2083EC9B2215046400AD09A3 /* SJGestureInfoView.m */; };
+		2083ECA32215046400AD09A3 /* SJGestureInfoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2083EC9D2215046400AD09A3 /* SJGestureInfoViewCell.m */; };
+		2083ECA42215046400AD09A3 /* SJGesturePassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 2083EC9F2215046400AD09A3 /* SJGesturePassword.m */; };
+		2083ECA52215046400AD09A3 /* SetGesturePasswordTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2083ECA02215046400AD09A3 /* SetGesturePasswordTitleView.m */; };
+		2083ECA82215050200AD09A3 /* UILabel+Text.m in Sources */ = {isa = PBXBuildFile; fileRef = 2083ECA72215050200AD09A3 /* UILabel+Text.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2083EC7D2215044800AD09A3 /* SJGesturePasswordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJGesturePasswordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2083EC802215044800AD09A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2083EC812215044800AD09A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2083EC832215044800AD09A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2083EC842215044800AD09A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2083EC872215044800AD09A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2083EC892215044900AD09A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2083EC8C2215044900AD09A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2083EC8E2215044900AD09A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2083EC8F2215044900AD09A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2083EC972215046400AD09A3 /* SJGesturePasswordCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJGesturePasswordCell.m; sourceTree = "<group>"; };
+		2083EC982215046400AD09A3 /* SJGestureInfoViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJGestureInfoViewCell.h; sourceTree = "<group>"; };
+		2083EC992215046400AD09A3 /* SetGesturePasswordTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetGesturePasswordTitleView.h; sourceTree = "<group>"; };
+		2083EC9A2215046400AD09A3 /* SJGesturePassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJGesturePassword.h; sourceTree = "<group>"; };
+		2083EC9B2215046400AD09A3 /* SJGestureInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJGestureInfoView.m; sourceTree = "<group>"; };
+		2083EC9C2215046400AD09A3 /* SJGesturePasswordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJGesturePasswordCell.h; sourceTree = "<group>"; };
+		2083EC9D2215046400AD09A3 /* SJGestureInfoViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJGestureInfoViewCell.m; sourceTree = "<group>"; };
+		2083EC9E2215046400AD09A3 /* SJGestureInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJGestureInfoView.h; sourceTree = "<group>"; };
+		2083EC9F2215046400AD09A3 /* SJGesturePassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJGesturePassword.m; sourceTree = "<group>"; };
+		2083ECA02215046400AD09A3 /* SetGesturePasswordTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetGesturePasswordTitleView.m; sourceTree = "<group>"; };
+		2083ECA62215050200AD09A3 /* UILabel+Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Text.h"; sourceTree = "<group>"; };
+		2083ECA72215050200AD09A3 /* UILabel+Text.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Text.m"; sourceTree = "<group>"; };
+		2083ECA9221505A600AD09A3 /* SJHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJHeader.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2083EC7A2215044800AD09A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2083EC742215044800AD09A3 = {
+			isa = PBXGroup;
+			children = (
+				2083EC7F2215044800AD09A3 /* SJGesturePasswordDemo */,
+				2083EC7E2215044800AD09A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2083EC7E2215044800AD09A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2083EC7D2215044800AD09A3 /* SJGesturePasswordDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2083EC7F2215044800AD09A3 /* SJGesturePasswordDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2083EC962215046400AD09A3 /* AccountSecurityView */,
+				2083EC802215044800AD09A3 /* AppDelegate.h */,
+				2083EC812215044800AD09A3 /* AppDelegate.m */,
+				2083EC832215044800AD09A3 /* ViewController.h */,
+				2083EC842215044800AD09A3 /* ViewController.m */,
+				2083ECA9221505A600AD09A3 /* SJHeader.h */,
+				2083EC862215044800AD09A3 /* Main.storyboard */,
+				2083EC892215044900AD09A3 /* Assets.xcassets */,
+				2083EC8B2215044900AD09A3 /* LaunchScreen.storyboard */,
+				2083EC8E2215044900AD09A3 /* Info.plist */,
+				2083EC8F2215044900AD09A3 /* main.m */,
+			);
+			path = SJGesturePasswordDemo;
+			sourceTree = "<group>";
+		};
+		2083EC962215046400AD09A3 /* AccountSecurityView */ = {
+			isa = PBXGroup;
+			children = (
+				2083EC982215046400AD09A3 /* SJGestureInfoViewCell.h */,
+				2083EC972215046400AD09A3 /* SJGesturePasswordCell.m */,
+				2083EC9A2215046400AD09A3 /* SJGesturePassword.h */,
+				2083EC9B2215046400AD09A3 /* SJGestureInfoView.m */,
+				2083EC9C2215046400AD09A3 /* SJGesturePasswordCell.h */,
+				2083EC9D2215046400AD09A3 /* SJGestureInfoViewCell.m */,
+				2083EC9E2215046400AD09A3 /* SJGestureInfoView.h */,
+				2083EC9F2215046400AD09A3 /* SJGesturePassword.m */,
+				2083EC992215046400AD09A3 /* SetGesturePasswordTitleView.h */,
+				2083ECA02215046400AD09A3 /* SetGesturePasswordTitleView.m */,
+				2083ECA62215050200AD09A3 /* UILabel+Text.h */,
+				2083ECA72215050200AD09A3 /* UILabel+Text.m */,
+			);
+			path = AccountSecurityView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2083EC7C2215044800AD09A3 /* SJGesturePasswordDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2083EC932215044900AD09A3 /* Build configuration list for PBXNativeTarget "SJGesturePasswordDemo" */;
+			buildPhases = (
+				2083EC792215044800AD09A3 /* Sources */,
+				2083EC7A2215044800AD09A3 /* Frameworks */,
+				2083EC7B2215044800AD09A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SJGesturePasswordDemo;
+			productName = SJGesturePasswordDemo;
+			productReference = 2083EC7D2215044800AD09A3 /* SJGesturePasswordDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2083EC752215044800AD09A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = sino;
+				TargetAttributes = {
+					2083EC7C2215044800AD09A3 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 2083EC782215044800AD09A3 /* Build configuration list for PBXProject "SJGesturePasswordDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2083EC742215044800AD09A3;
+			productRefGroup = 2083EC7E2215044800AD09A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2083EC7C2215044800AD09A3 /* SJGesturePasswordDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2083EC7B2215044800AD09A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2083EC8D2215044900AD09A3 /* LaunchScreen.storyboard in Resources */,
+				2083EC8A2215044900AD09A3 /* Assets.xcassets in Resources */,
+				2083EC882215044800AD09A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2083EC792215044800AD09A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2083ECA12215046400AD09A3 /* SJGesturePasswordCell.m in Sources */,
+				2083EC852215044800AD09A3 /* ViewController.m in Sources */,
+				2083ECA32215046400AD09A3 /* SJGestureInfoViewCell.m in Sources */,
+				2083ECA52215046400AD09A3 /* SetGesturePasswordTitleView.m in Sources */,
+				2083ECA42215046400AD09A3 /* SJGesturePassword.m in Sources */,
+				2083ECA22215046400AD09A3 /* SJGestureInfoView.m in Sources */,
+				2083EC902215044900AD09A3 /* main.m in Sources */,
+				2083EC822215044800AD09A3 /* AppDelegate.m in Sources */,
+				2083ECA82215050200AD09A3 /* UILabel+Text.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2083EC862215044800AD09A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2083EC872215044800AD09A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2083EC8B2215044900AD09A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2083EC8C2215044900AD09A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2083EC912215044900AD09A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2083EC922215044900AD09A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2083EC942215044900AD09A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SJGesturePasswordDemo/SJHeader.h";
+				INFOPLIST_FILE = SJGesturePasswordDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hello.SJGesturePasswordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2083EC952215044900AD09A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SJGesturePasswordDemo/SJHeader.h";
+				INFOPLIST_FILE = SJGesturePasswordDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hello.SJGesturePasswordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2083EC782215044800AD09A3 /* Build configuration list for PBXProject "SJGesturePasswordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2083EC912215044900AD09A3 /* Debug */,
+				2083EC922215044900AD09A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2083EC932215044900AD09A3 /* Build configuration list for PBXNativeTarget "SJGesturePasswordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2083EC942215044900AD09A3 /* Debug */,
+				2083EC952215044900AD09A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2083EC752215044800AD09A3 /* Project object */;
+}
